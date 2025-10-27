@@ -84,7 +84,6 @@ Book_My_Vandi/
 | **Admin Manage Cars** | ![Admin Manage Cars](Screenshot/Admin%20Manage%20Car.png) |
 | **All Bookings (Admin)** | ![All Bookings](Screenshot/admin%20all%20booking.png) |
 
-> 🖼️ *Ensure screenshot filenames and paths exactly match your folder.*
 
 ---
 
