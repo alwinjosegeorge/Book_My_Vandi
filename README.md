@@ -25,6 +25,7 @@ This is a student-friendly MVC-structured Java Swing project for a Car Rental sy
 
 For Mac/Linux replace `;` with `:` in classpath.
 
+
 ## Notes
 - Passwords are plain-text in DB (for demo only) — do not use in production.
 - If you run into driver errors, ensure `sqlite-jdbc.jar` is present and classpath is correct.
