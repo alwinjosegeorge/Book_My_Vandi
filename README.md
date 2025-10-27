@@ -116,6 +116,4 @@ Feel free to use, modify, and share it — but please give proper credit to the 
 
 ---
 
-Would you like me to make it **with badges and logo banner (like pro GitHub aesthetic with shields.io tags and header image)** next?  
-That version looks super polished for recruiters and hackathons
 
