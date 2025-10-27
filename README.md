@@ -138,7 +138,6 @@ Book_My_Vandi/
 | **Alwin Jose George** | [@alwinjosegeorge](https://github.com/alwinjosegeorge) | Project Lead / Full Stack Developer |
 | **Joe Martin Rince** | [@JoeMartinRince](https://github.com/JoeMartinRince) | Backend Developer |
 | **Febin Nobel** | [@febin-04](https://github.com/febin-04) | Testing & Documentation |
-
 | **Alex Roy** | [@AlexRoy2006](https://github.com/AlexRoy2006) | UI & Database Design |
 
 ---
