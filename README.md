@@ -36,7 +36,7 @@ It provides a professional, responsive user interface powered by **Java Swing**,
 | **Database** | SQLite |
 | **Architecture** | MVC (Model–View–Controller) |
 
----
+```
 📁 CarBookingSystem
 ├── 📁 src
 │ ├── 📁 model # Data models: Car, User, Bookings
@@ -57,8 +57,7 @@ It provides a professional, responsive user interface powered by **Java Swing**,
 │ ├── User Login .png
 │ └── ... (more screenshots)
 └── 📁 bin # Compiled .class files
----
-
+```
 
 ---
 
