@@ -1,131 +1,91 @@
-🚗 Car Booking System (Java Swing + MySQL)
+# 🚗 Book My Vandi – Car Rental Management System
 
-A fully functional Car Booking System built with Java Swing, following the MVC architecture.
-This desktop app enables Admins, Sellers, and Users to manage, view, and book cars in real-time, with a connected MySQL database.
+A modern Java Swing-based desktop application for managing car rentals with integrated user authentication, admin management, and local database persistence using **SQLite**.  
+Developed as part of an academic project under **Object-Oriented Programming (OOP)**, this system demonstrates complete CRUD functionality, modular MVC architecture, and a user-friendly graphical interface.
 
-📁 CarBookingSystem (Root Folder)
-│
+---
+
+## 📋 Project Overview
+
+**Book My Vandi** is a complete desktop solution for booking, managing, and monitoring car rentals.  
+The application provides separate roles for **Admin**, **Seller**, and **User**, ensuring secure access and smooth coordination between all participants in the system.
+
+---
+
+## 🎯 Key Features
+
+### 👥 User
+- Create an account and log in securely.
+- Search for available cars.
+- Book cars for selected days.
+- View booking history and confirmations.
+
+### 🧑‍💼 Seller
+- Add, edit, or remove car listings.
+- View and confirm booking requests.
+- Manage customer messages and booking details.
+
+### 🛠️ Admin
+- Manage all users and cars.
+- View complete booking records.
+- Oversee system activity and database integrity.
+
+---
+
+## 🧩 Architecture
+
+📁 CarBookingSystem
 ├── 📁 src
-│   ├── 📁 model
-│   │   ├── Bookings.java          # Booking entity (stores user bookings)
-│   │   ├── Car.java               # Car entity (stores car details)
-│   │   ├── User.java              # User entity (stores admin/seller/user data)
-│   │
-│   ├── 📁 controller
-│   │   ├── BookingController.java # Handles booking logic and validation
-│   │   ├── CarController.java     # Handles car CRUD operations
-│   │   ├── UserController.java    # Handles user login & signup
-│   │
-│   ├── 📁 view
-│   │   ├── MainFrame.java         # Main GUI window
-│   │   ├── MainFrame$BookingDialog.class   # Booking dialog
-│   │   ├── MainFrame$AdminPanel$1.class    # Admin inner class
-│   │   ├── ... (Other view-related GUI components)
-│   │
-│   ├── 📁 dao
-│   │   └── (Future DAO classes for DB queries)
-│   │
-│   ├── 📁 database
-│   │   └── DBConnection.java      # MySQL connection handler
-│   │
-│   ├── 📁 utils
-│   │   └── UIUtils.java           # Utility methods for GUI styling and alerts
-│   │
-│   └── MainFrame.class            # Compiled main class
-│
+│ ├── 📁 model # Data classes (Car, User, Booking)
+│ ├── 📁 controller # Business logic & data flow
+│ ├── 📁 view # GUI (Swing-based forms)
+│ ├── 📁 dao # Data Access Objects for database CRUD
+│ ├── 📁 database # Database connection classes
+│ └── 📁 utils # Helper utilities for UI and formatting
 ├── 📁 resources
-│   ├── 📁 images                  # Car and UI images
-│   │   ├── 3c785b81-d412-44da-8a9e-b071741517f8.png
-│   │   ├── 72f8e19a-9120-406b-bff2-52d4cc1de827.png
-│   │   └── ...
-│   │
-│   ├── 📁 screenshots             # App preview screenshots
-│   │   ├── Admin Login.png
-│   │   ├── Account Creation Confirmation.png
-│   │   ├── Booking History.png
-│   │   └── ...
-│
-└── 📁 bin                         # Compiled .class files
+│ ├── 📁 images # App icons and images
+│ └── 📁 screenshots # Output screenshots (UI pages)
+└── 📁 bin # Compiled class files
 
+---
 
+## 🖼️ Application Screenshots
 
+| Screen | Preview |
+|--------|----------|
+| **Main Login Page** | ![Main Login](resources/screenshots/MainLoginPage.png) |
+| **Create Account** | ![Create Account](resources/screenshots/Create%20Account.png) |
+| **OTP Verification** | ![OTP Page](resources/screenshots/OTP%20page.png) |
+| **User Login** | ![User Login](resources/screenshots/User%20Login%20.png) |
+| **User Dashboard** | ![User Interface](resources/screenshots/User%20Interface.png) |
+| **Booking Demo** | ![Booking Demo](resources/screenshots/Booking%20Demo.png) |
+| **Booking Confirmation** | ![Booking Confirmation](resources/screenshots/Booking%20Confirmation.png) |
+| **Seller Login** | ![Seller Login](resources/screenshots/Seller%20Login%20Pages.png) |
+| **Seller Confirmation** | ![Seller Confirmation](resources/screenshots/Seller%20Booking%20Conforming%20.png) |
+| **Admin Login** | ![Admin Login](resources/screenshots/Admin%20Loggin.png) |
+| **Admin Manage Cars** | ![Admin Manage Cars](resources/screenshots/Admin%20Manage%20Car.png) |
+| **All Bookings (Admin)** | ![All Bookings](resources/screenshots/admin%20all%20booking.png) |
 
-🧠 Features
+*(Add or rename screenshots as per your actual folder names.)*
 
-✅ User Roles:
+---
 
-Admin — Manage cars, users, and view all bookings.
+## ⚙️ Tech Stack
 
-Seller — Add, update, and view their own cars.
+- **Language:** Java (JDK 17+)
+- **GUI Framework:** Swing
+- **Database:** SQLite (via `sqlite-jdbc`)
+- **Architecture:** MVC (Model–View–Controller)
+- **IDE Recommended:** IntelliJ IDEA / Eclipse
+- **Build Tool:** Manual compile or IDE build
 
-User — Browse, rent, and view booking history.
+---
 
-✅ Functional Modules:
+## 🧱 Installation & Setup
 
-Login & Signup System
+### 1️⃣ Clone the repository
+```bash
+git clone https://github.com/alwinjosegeorge/Book_My_Vandi.git
 
-Car Browsing (with images & details)
+This project follows the **MVC (Model–View–Controller)** design pattern to ensure separation of concerns and maintainable code.
 
-Booking Dialog with Date Picker & Price Calculation
-
-Admin Dashboard for management
-
-Swing-based dynamic panels & dialogs
-
-Database persistence using JDBC (MySQL)
-
-
-| Component                | Technology                                        |
-| ------------------------ | ------------------------------------------------- |
-| **Programming Language** | Java (JDK 8+)                                     |
-| **GUI Framework**        | Swing & AWT                                       |
-| **Database**             | MySQL                                             |
-| **Architecture**         | MVC (Model-View-Controller)                       |
-| **Build/Run Tool**       | Java Compiler or IDE (IntelliJ, Eclipse, VS Code) |
-
-
-🏃‍♂️ How to Run
-▶️ Option 1: Using Command Line
-cd CarBookingSystem/src
-javac */*.java */*/*.java
-java view.MainFrame
-
-▶️ Option 2: Using an IDE
-
-Open the CarBookingSystem project in your IDE.
-
-Set the JDK version to Java 8 or higher.
-
-Make sure the MySQL server is running.
-
-Run the MainFrame.java file (inside view folder).
-
-The GUI window should appear.
-
-💾 JDBC Setup (Important)
-
-Download and add MySQL Connector/J to your classpath:
-👉 MySQL Connector/J Download Page
-
-In your IDE:
-
-Eclipse: Project → Properties → Java Build Path → Add External JARs → Select Connector/J
-
-IntelliJ IDEA: File → Project Structure → Modules → Dependencies → Add JAR
-
-🪟 Sample Screenshots
-Login Page	Admin Panel	Booking Dialog
-
-	
-	
-🧱 Future Enhancements
-
-Add email notifications for bookings
-
-Implement image upload feature for car listings
-
-Password encryption for user security
-
-Add search, sort, and filter for car browsing
-
-Integrate with payment gateway (Stripe or PayPal)
