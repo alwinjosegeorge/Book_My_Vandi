@@ -35,11 +35,6 @@ It offers dedicated roles for **Admin**, **Seller**, and **User**, each with dis
 - 👤 Manage all registered users and sellers.  
 - 🚘 Oversee all vehicle data and bookings.  
 - 🧾 Maintain system logs and database integrity.  
-## 📋 Project Overview
-
-**Book My Vandi** is a complete desktop solution for **booking, managing, and monitoring car rentals**.  
-It provides dedicated roles for **Admin**, **Seller**, and **User**, ensuring secure access and smooth coordination across all operations.
-
 
 ---
 
@@ -49,18 +44,6 @@ It provides dedicated roles for **Admin**, **Seller**, and **User**, ensuring se
 It’s designed with a professional MVC structure using **Java Swing** for the frontend and **SQLite** for persistent local data storage.  
 
 This project ensures smooth management of customers, cars, and bookings — ideal for small rental agencies and college project demonstrations.
-
----
-
-## ✨ Key Features
-
-- 🔐 **User Authentication** – Secure login and account creation  
-- 🚘 **Car Management** – Add, edit, and remove car details easily  
-- 📅 **Booking System** – Book and track rentals with instant confirmation  
-- 👥 **Admin Panel** – Approve or reject bookings  
-- 💾 **SQLite Integration** – Local database for offline persistence  
-- 🧾 **Detailed Records** – Manage bookings, returns, and customers  
-- 💡 **Responsive UI** – Built using Java Swing with modern design principles  
 
 ---
 
@@ -81,8 +64,6 @@ Book_My_Vandi/
 ├── sqlite-jdbc.jar     # SQLite JDBC Driver
 └── README.md
 ```
-
----
 
 ---
 
@@ -120,6 +101,29 @@ Book_My_Vandi/
 
 ---
 
+## 🧱 Installation & Setup
+
+### 1️⃣ Clone the repository
+```bash
+git clone https://github.com/alwinjosegeorge/Book_My_Vandi.git
+```
+
+### 2️⃣ Add the SQLite JDBC Driver
+Download the required version of `sqlite-jdbc` and place it in your project directory.
+
+### 3️⃣ Compile the project
+```bash
+javac -cp ".;sqlite-jdbc.jar" src/*.java
+```
+
+### 4️⃣ Run the application
+```bash
+java -cp ".;sqlite-jdbc.jar" src.MainFrame
+```
+
+💡 You can also open the project directly in **IntelliJ IDEA** or **Eclipse** and run the main file.
+
+---
 
 ## 🚀 Future Enhancements
 
@@ -135,10 +139,10 @@ Book_My_Vandi/
 
 | Member | GitHub | Role |
 |---------|---------|------|
-| **Alwin Jose George** | [@alwinjosegeorge](https://github.com/alwinjosegeorge) | Project Lead / Full Stack Developer |
-| **Joe Martin Rince** | [@JoeMartinRince](https://github.com/JoeMartinRince) | Backend Developer |
-| **Febin Nobel** | [@febin-04](https://github.com/febin-04) | Testing & Documentation |
-| **Alex Roy** | [@AlexRoy2006](https://github.com/AlexRoy2006) | UI & Database Design |
+| **Alwin Jose George** | [@alwinjosegeorge](https://github.com/alwinjosegeorge) | Full Stack Developer |
+| **Joe Martin Rince** | [@JoeMartinRince](https://github.com/JoeMartinRince) | UI & Database Design  |
+| **Febin Nobel** | [@febin-04](https://github.com/febin-04) | Backend Developer |
+| **Alex Roy** | [@AlexRoy2006](https://github.com/AlexRoy2006) | Testing & Documentation |
 
 ---
 
