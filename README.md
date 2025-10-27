@@ -1,3 +1,6 @@
+[![Watch the video](assets/demo_thumbnail.png)](assets/demo.mp4)
+
+
 # 🚗 Book My Vandi – Car Rental Management System
 
 [![Java](https://img.shields.io/badge/Language-Java-red?style=for-the-badge&logo=java)](https://www.java.com/)
