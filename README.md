@@ -32,28 +32,71 @@ The app supports **three roles** — **User**, **Seller**, and **Admin** — pro
 
 ---
 
-## 🧩 Project Structure
+## 📁 Project Structure
 
-📁 CarBookingSystem
-├── 📁 src
-│ ├── 📁 model # Data models: Car, User, Bookings
-│ ├── 📁 controller # Logic for user, car, and booking management
-│ ├── 📁 view # GUI (Swing Forms)
-│ ├── 📁 dao # Database operations
-│ ├── 📁 database # SQLite connection handling
-│ └── 📁 utils # Helper utilities
-├── 📁 Screenshot # Application output screenshots
-│ ├── Account Creation Confirmation.png
-│ ├── Admin Loggin.png
-│ ├── Booking Confirmation.png
-│ ├── Booking Demo.png
-│ ├── Create Account.png
-│ ├── OTP page.png
-│ ├── Seller Booking Conforming .png
-│ ├── User Interface.png
-│ ├── User Login .png
-│ └── ... (more screenshots)
-└── 📁 bin # Compiled .class files
+
+📁 CarBookingSystem (Root Folder)
+│
+├── 📁 src (Source code folder)
+│ ├── 📁 model
+│ │ ├── Bookings.java
+│ │ ├── Car.java
+│ │ ├── User.java
+│ │
+│ ├── 📁 controller
+│ │ ├── BookingController.java
+│ │ ├── CarController.java
+│ │ ├── UserController.java
+│ │
+│ ├── 📁 view
+│ │ ├── MainFrame.java
+│ │ ├── MainFrame$AdminPanel$1.class
+│ │ ├── MainFrame$AllBookingsPanel.class
+│ │ ├── MainFrame$BookingDialog.class
+│ │ └── ... (Other View classes)
+│
+│ ├── 📁 dao
+│ │ └── (Future DAO classes for DB queries)
+│
+│ ├── 📁 database
+│ │ └── DBConnection.java
+│
+│ ├── 📁 utils
+│ │ └── UIUtils.java
+│
+│ └── MainFrame.class
+│
+├── 📁 resources
+│ ├── 📁 images
+│ │ ├── 3c785b81-d412-44da-8a9e-b071741517f8.png
+│ │ ├── 72f8e19a-9120-406b-bff2-52d4cc1de827.png
+│ │ └── ... (Other images)
+│
+│ ├── 📁 screenshots
+│ │ ├── Account Creation Confirmation.png
+│ │ ├── Admin Loggin.png
+│ │ ├── Booking History.png
+│ │ └── ... (Other UI screenshots)
+│
+└── 📁 bin
+├── 📁 model
+│ ├── Bookings.class
+│ ├── Car.class
+│ ├── User.class
+│
+├── 📁 controller
+│ └── ... (Controller .class files)
+│
+├── 📁 view
+│ ├── MainFrame.class
+│ ├── MainFrame$AdminPanel.class
+│ └── ... (Other View .class files)
+│
+├── 📁 database
+│ └── DBConnection.class
+│
+└── 📁 utils
+└── UIUtils.class
 
 ---
 
