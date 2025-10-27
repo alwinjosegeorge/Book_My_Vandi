@@ -75,8 +75,6 @@ The app supports **three roles** — **User**, **Seller**, and **Admin** — pro
 | **Admin Manage Cars** | ![Admin Manage Cars](Screenshot/Admin%20Manage%20Car.png) |
 | **Admin All Bookings** | ![All Bookings](Screenshot/admin%20all%20booking.png) |
 
-*(Ensure all file names exactly match your folder — GitHub is case-sensitive.)*
-
 ---
 
 ## ⚙️ Tech Stack
