@@ -36,6 +36,10 @@ It provides a professional, responsive user interface powered by **Java Swing**,
 | **Database** | SQLite |
 | **Architecture** | MVC (Model–View–Controller) |
 
+
+## 📁 Project Structure
+
+
 ```
 📁 CarBookingSystem
 ├── 📁 src
