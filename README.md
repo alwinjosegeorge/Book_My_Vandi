@@ -110,9 +110,6 @@ Febin Nobel	@febin-04
 📜 License
 
 This project is licensed under the MIT License.
-Feel free to use, modify, and share it — but please give proper credit to the original creators.
-
-💡 Made with ❤️ by Team Book My Vandi
 
 ---
 
