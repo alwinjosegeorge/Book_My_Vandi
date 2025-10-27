@@ -1,137 +1,118 @@
-# 🚗 Book My Vandi – Car Rental Management System
+# 🚗 Book My Vandi
 
-A modern **Java Swing**-based desktop application for managing car rentals with integrated user authentication, admin management, and local database persistence using **SQLite**.  
-Developed as part of an academic project under **Object-Oriented Programming (OOP)**, this system demonstrates full **CRUD operations**, clean **MVC architecture**, and a user-friendly **graphical interface**.
+A modern **Car Rental Management System** designed to simplify vehicle booking, approval, and management — built with **Java Swing** and **SQLite** for fast, local data handling.
 
----
-
-## 📋 Project Overview
-
-**Book My Vandi** is a comprehensive car rental management system that simplifies the process of booking, managing, and monitoring cars for rent.  
-The app supports **three roles** — **User**, **Seller**, and **Admin** — providing a smooth and secure workflow for every participant.
+![Account Creation Confirmation](Screenshot/Account%20Creation%20Confirmation.png)
 
 ---
 
-## 🎯 Key Features
+## 📖 Overview
 
-### 👥 User
-- Create an account and log in.
-- Browse available cars.
-- Book cars for specific days.
-- View booking history and confirmations.
+**Book My Vandi** is a desktop-based **Car Rental Management System (CRMS)** that allows users to register, log in, browse available vehicles, make bookings, and manage rental approvals with ease.
 
-### 🚘 Seller
-- Add, edit, and remove cars.
-- View and confirm customer bookings.
-- Manage messages and booking updates.
-
-### 🧑‍💼 Admin
-- Manage users and sellers.
-- Oversee all bookings.
-- Control car listings and database activity.
+The project follows a structured **MVC architecture** ensuring scalability, maintainability, and readability.  
+It provides a professional, responsive user interface powered by **Java Swing**, while **SQLite** ensures reliable, offline data persistence.
 
 ---
 
-## 📁 Project Structure
+## ✨ Key Features
 
-
-📁 CarBookingSystem (Root Folder)
-│
-├── 📁 src (Source code folder)
-│ ├── 📁 model
-│ │ ├── Bookings.java
-│ │ ├── Car.java
-│ │ ├── User.java
-│ │
-│ ├── 📁 controller
-│ │ ├── BookingController.java
-│ │ ├── CarController.java
-│ │ ├── UserController.java
-│ │
-│ ├── 📁 view
-│ │ ├── MainFrame.java
-│ │ ├── MainFrame$AdminPanel$1.class
-│ │ ├── MainFrame$AllBookingsPanel.class
-│ │ ├── MainFrame$BookingDialog.class
-│ │ └── ... (Other View classes)
-│
-│ ├── 📁 dao
-│ │ └── (Future DAO classes for DB queries)
-│
-│ ├── 📁 database
-│ │ └── DBConnection.java
-│
-│ ├── 📁 utils
-│ │ └── UIUtils.java
-│
-│ └── MainFrame.class
-│
-├── 📁 resources
-│ ├── 📁 images
-│ │ ├── 3c785b81-d412-44da-8a9e-b071741517f8.png
-│ │ ├── 72f8e19a-9120-406b-bff2-52d4cc1de827.png
-│ │ └── ... (Other images)
-│
-│ ├── 📁 screenshots
-│ │ ├── Account Creation Confirmation.png
-│ │ ├── Admin Loggin.png
-│ │ ├── Booking History.png
-│ │ └── ... (Other UI screenshots)
-│
-└── 📁 bin
-├── 📁 model
-│ ├── Bookings.class
-│ ├── Car.class
-│ ├── User.class
-│
-├── 📁 controller
-│ └── ... (Controller .class files)
-│
-├── 📁 view
-│ ├── MainFrame.class
-│ ├── MainFrame$AdminPanel.class
-│ └── ... (Other View .class files)
-│
-├── 📁 database
-│ └── DBConnection.class
-│
-└── 📁 utils
-└── UIUtils.class
+- 🔐 **User Authentication** – Secure registration and login for all users.
+- 🚘 **Vehicle Management** – Add, edit, and manage car details efficiently.
+- 📅 **Booking System** – Rent cars with a user-friendly booking interface.
+- ✅ **Admin Approval Workflow** – Admins can approve or reject bookings.
+- 📊 **Dashboard View** – Display of user statistics and booking history.
+- 💾 **SQLite Database** – Lightweight, local database storage.
+- 🧩 **MVC Structure** – Clean separation of Model, View, and Controller layers.
 
 ---
 
-## 🖼️ Application Screenshots
+## 🏗️ Tech Stack
 
-| Screen | Preview |
-|--------|----------|
-| **Main Login Page** | ![Main Login](Screenshot/MainLoginPage.png) |
-| **Account Creation** | ![Account Creation](Screenshot/Account%20Creation%20Confirmation.png) |
-| **Create Account** | ![Create Account](Screenshot/Create%20Account.png) |
-| **OTP Verification** | ![OTP Page](Screenshot/OTP%20page.png) |
-| **User Login** | ![User Login](Screenshot/User%20Login%20.png) |
-| **User Dashboard** | ![User Interface](Screenshot/User%20Interface.png) |
-| **Booking Demo** | ![Booking Demo](Screenshot/Booking%20Demo.png) |
-| **Booking Confirmation** | ![Booking Confirmation](Screenshot/Booking%20Confirmation.png) |
-| **Seller Login** | ![Seller Login](Screenshot/Seller%20Login%20Pages.png) |
-| **Seller Confirmation** | ![Seller Confirmation](Screenshot/Seller%20Booking%20Conforming%20.png) |
-| **Admin Login** | ![Admin Login](Screenshot/Admin%20Loggin.png) |
-| **Admin Manage Cars** | ![Admin Manage Cars](Screenshot/Admin%20Manage%20Car.png) |
-| **Admin All Bookings** | ![All Bookings](Screenshot/admin%20all%20booking.png) |
+| Layer | Technology |
+|:------|:------------|
+| **Frontend (UI)** | Java Swing |
+| **Backend (Logic)** | Java (OOP Concepts) |
+| **Database** | SQLite |
+| **Architecture** | MVC (Model–View–Controller) |
+
+---
+📁 CarBookingSystem
+├── 📁 src
+│ ├── 📁 model # Data models: Car, User, Bookings
+│ ├── 📁 controller # Logic for user, car, and booking management
+│ ├── 📁 view # GUI (Swing Forms)
+│ ├── 📁 dao # Database operations
+│ ├── 📁 database # SQLite connection handling
+│ └── 📁 utils # Helper utilities
+├── 📁 Screenshot # Application output screenshots
+│ ├── Account Creation Confirmation.png
+│ ├── Admin Loggin.png
+│ ├── Booking Confirmation.png
+│ ├── Booking Demo.png
+│ ├── Create Account.png
+│ ├── OTP page.png
+│ ├── Seller Booking Conforming .png
+│ ├── User Interface.png
+│ ├── User Login .png
+│ └── ... (more screenshots)
+└── 📁 bin # Compiled .class files
+---
+
 
 ---
 
-## ⚙️ Tech Stack
+## ⚙️ Installation & Setup
 
-- **Language:** Java (JDK 17+)
-- **Framework:** Swing (Java GUI)
-- **Database:** SQLite (via `sqlite-jdbc`)
-- **Architecture:** MVC (Model–View–Controller)
-- **IDE Recommended:** IntelliJ IDEA / Eclipse
+1. **Clone this repository:**
+   ```bash
+   git clone https://github.com/alwinjosegeorge/Book_My_Vandi.git
+   cd Book_My_Vandi
+Add the SQLite JDBC Driver:
+Download sqlite-jdbc-<version>.jar and place it in your project directory.
+
+Compile and Run:
+
+javac -cp .;sqlite-jdbc-<version>.jar Main.java
+java -cp .;sqlite-jdbc-<version>.jar Main
+
+
+Login or Create an Account to start using the system.
+
+📸 Screenshots
+Feature	Preview
+Account Creation Confirmation	
+🚀 Future Enhancements
+
+🌐 Cloud database integration
+
+📱 Mobile-friendly UI using JavaFX or React Native
+
+🔔 Email/SMS booking notifications
+
+🧾 Payment gateway integration
+
+🧠 AI-based vehicle recommendation system
+
+👨‍💻 Team Members
+Member	GitHub Username	Role
+Alwin Jose George	@alwinjosegeorge
+	Project Lead / Developer
+Joe Martin Rince	@JoeMartinRince
+	Backend Developer
+Alex Roy	@AlexRoy2006
+	UI & Database Design
+Febin Nobel	@febin-04
+	Testing & Documentation
+📜 License
+
+This project is licensed under the MIT License.
+Feel free to use, modify, and share it — but please give proper credit to the original creators.
+
+💡 Made with ❤️ by Team Book My Vandi
 
 ---
 
-## 🧱 Installation & Setup
+Would you like me to make it **with badges and logo banner (like pro GitHub aesthetic with shields.io tags and header image)** next?  
+That version looks super polished for recruiters and hackathons
 
-### 1️⃣ Clone the Repository
-```bash
-git clone https://github.com/alwinjosegeorge/Book_My_Vandi.git
