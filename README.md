@@ -1,5 +1,8 @@
-[![Watch the video](assets/demo_thumbnail.png)](assets/demo.mp4)
+Click below to watch our project intro video 👇  
 
+[![Watch the video](https://img.shields.io/badge/▶️%20Watch%20Project%20Demo-black?style=for-the-badge&logo=youtube)](Screenshot/Black%20Red%203D%20Car%20Intro%20Video.mp4)
+
+> 🎥 *Filename:* `Screenshot/Black Red 3D Car Intro Video.mp4`
 
 # 🚗 Book My Vandi – Car Rental Management System
 
