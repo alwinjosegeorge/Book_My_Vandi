@@ -37,6 +37,9 @@ public class DBConnection {
         if (connection != null) {
             try { connection.close(); } catch (SQLException ignored) {}
             connection = null;
+       
+        
+        
         }
     }
 }
