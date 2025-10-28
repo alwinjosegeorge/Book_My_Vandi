@@ -3,7 +3,7 @@ package model;
 /**
  * Booking model
  * Mirrors 'bookings' table:
- * id, car_id, user_id, pickup_place, pickup_date, pickup_time, days, total_price, status
+ * id, car_id, user_id, pickup_place, pickup_date, pickup_time, days, total_price, status 
  */
 public class Booking {
     public String id;
