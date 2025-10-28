@@ -5,7 +5,7 @@ package model;
  * Simple POJO to represent a car record from the database.
  *
  * Fields mirror the 'cars' table in your DB:
- * id, name, model, price_per_day, category, status, image_path, owner_id, fuel_type, seats, transmission.
+ * id, name, model, price_per_day, category, status, image_path, owner_id, fuel_type, seats, transmission. 
  */
 public class Car {
     public String id;
