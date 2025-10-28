@@ -5,7 +5,7 @@ package model;
  * Mirrors the 'users' table:
  * id, username, password, role, contact
  *
- * Note: passwords stored as plain text for the demo (not recommended for production).
+ * Note: passwords stored as plain text for the demo (not recommended for production). 
  */
 public class User {
     public String id;
