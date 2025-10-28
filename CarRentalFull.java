@@ -1,7 +1,7 @@
 /* CarRentalFull.java
     Fully functional single-file Swing Car Rental app (Enhanced)
     - Database: **SQLite Local File Integration** (No Initial Data)
-    - Features: Booking History, Booking Approval Flow ( Pending/Confirmed)
+    - Features: Booking History, Booking Approval Flow ( Pending/Confirmed )
     - **AESTHETIC: Professional, Clean, and Color-Coded Look**
 */
 
@@ -1195,3 +1195,4 @@ public class CarRentalFull {
     }
 
 }
+
