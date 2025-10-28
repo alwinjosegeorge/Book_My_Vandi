@@ -32,7 +32,12 @@ public class Booking {
     }
 
     @Override
+   
+    
+    
     public String toString() {
+        
+        
         return id + " - " + carId + " for " + days + " day(s) [" + status + "]";
     }
 }
