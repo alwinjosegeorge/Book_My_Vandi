@@ -1,4 +1,7 @@
-
+<p align="center">
+    <img src="bookmyvandi.png" alt="Logo" width="800"/>
+  </a>
+</p>
 
 # 🚗 Book My Vandi – Car Rental Management System
 
