@@ -1,5 +1,5 @@
 <p align="center">
-    <img src="bookmyvandi.png" alt="Logo" width="800"/>
+    <img src="bookmyvandi.png" alt="Logo" width="700"/>
   </a>
 </p>
 
@@ -22,6 +22,16 @@ Developed as part of an **academic Object-Oriented Programming (OOP)** project, 
 It offers dedicated roles for **Admin**, **Seller**, and **User**, each with distinct access permissions and workflows to ensure secure and efficient system operation.
 
 ---
+## 📘 User Manual
+
+For a complete guide on installation, features, and usage, refer to the official **User Manual** below.  
+
+📄 [👉 Click here to open the User Manual (PDF)](User_Manual.pdf)
+
+> The User Manual includes step-by-step setup instructions, screenshots, and feature explanations for Admin, Seller, and User modules.
+
+---
+
 
 ## 🎯 Key Features
 
